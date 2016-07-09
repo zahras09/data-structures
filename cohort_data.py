@@ -16,9 +16,9 @@ def unique_houses(filename):
 
     houses = []  # Create an empty list to create a set.
 
-    open_file = open(filename)
+    open_file = open(filename)  # Open the file.
 
-    for line in open_file:
+    for line in open_file:  # For every iteration in the 
         line = line.rstrip()
         words = line.split("|")
         house_name = words[2]
